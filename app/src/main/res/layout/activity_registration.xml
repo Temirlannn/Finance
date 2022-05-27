@@ -58,7 +58,7 @@
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginHorizontal="20dp"
             android:layout_width="match_parent"
-            android:inputType="textPassword"
+            android:inputType="text"
             android:layout_height="wrap_content"
             android:hint="@string/name"
             android:importantForAutofill="no" />
@@ -71,7 +71,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="20dp"
-            android:text="@string/registr"
+            android:text="@string/register"
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

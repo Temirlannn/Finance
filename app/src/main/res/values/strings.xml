@@ -6,10 +6,27 @@
     <string name="password">password</string>
     <string name="login">login</string>
     <string name="sign_in">Sign in</string>
-    <string name="mynda_jok_suka">Myndai user jok suka, dalbaeb</string>
+    <string name="no_user">No user</string>
     <string name="save">save</string>
-    <string name="registr">register</string>
-    <string name="name">name</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="register">register</string>
+    <string name="success">success</string>
+    <string name="name">Name</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nameO">Name:</string>
+    <string name="usernameO">Username:</string>
+    <string name="payment">Payment</string>
+    <string name="history">History</string>
+    <string name="submit">submit</string>
+
+    <string-array name="Choose_Payment">
+        <item>PROFIT</item>
+        <item>EXPENSE</item>
+    </string-array>
+
+    <string-array name="Choose_category">
+        <item>FAMILY</item>
+        <item>HOBBY</item>
+        <item>SELF_INTERESTS</item>
+        <item>EDUCATION</item>
+    </string-array>
 </resources>

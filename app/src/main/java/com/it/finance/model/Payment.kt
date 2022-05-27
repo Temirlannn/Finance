@@ -8,10 +8,16 @@ import androidx.room.PrimaryKey
 data class Payment(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    val id: String,
+    val id: Int,
 
     @ColumnInfo(name = "category")
     val category: String,
+
+    @ColumnInfo(name = "address")
+    val address: String,
+
+    @ColumnInfo(name = "username_of_use")
+    val usernameOfUse:String,
 
     @ColumnInfo(name = "description")
     val description: String,
@@ -20,5 +26,5 @@ data class Payment(
     val amount: Int,
 
     @ColumnInfo(name = "payment_type")
-    val paymentType:String
+    val paymentType: String
 )
